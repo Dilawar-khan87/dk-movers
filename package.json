@@ -9,15 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mezh-hq/react-seat-toolkit": "^3.3.5",
+    "@seatsio/seatsio-react": "^15.13.0",
+    "firebase": "^11.10.0",
+    "html2pdf.js": "^0.10.3",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.525.0",
+    "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "react-leaflet": "^5.0.0",
+    "react-multi-date-picker": "^4.5.2"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
