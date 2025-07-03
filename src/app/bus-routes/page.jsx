@@ -161,6 +161,16 @@ const busIcon = new L.Icon({
 });
 
 export default function BusRoutes() {
+  const [url, setUrl] = useState('');
+  const [screenWidth, setScreenWidth] = useState(0);
+
+  useEffect(() => {
+    // ✅ Safe usage of window inside useEffect
+    if (typeof window !== 'undefined') {
+      setUrl(window.location.href);
+      setScreenWidth(window.innerWidth);
+    }
+  }, []);
   useEffect(() => {
     // delete L.Icon.Default.prototype._getIconUrl;
     L.Icon.Default.mergeOptions({
