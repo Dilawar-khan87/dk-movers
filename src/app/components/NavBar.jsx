@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="space-x-6 hidden md:flex text-white items-center">
           <Link href="/" className="hover:text-yellow-400">Home</Link>
           <Link href="/bus-schecules" className="hover:text-yellow-400">Bus Schedules</Link>
-          <Link href="/bus-routes" className="hover:text-yellow-400">Bus Routes</Link>
+          {/* <Link href="/bus-routes" className="hover:text-yellow-400">Bus Routes</Link> */}
           <Link href="/reviews" className="hover:text-yellow-400">Reviews</Link>
           <Link href="/contact" className="hover:text-yellow-400">Contact Us</Link>
           {!user ? (
